@@ -1,0 +1,49 @@
+Microsoft Windows [Version 10.0.22631.4317]
+(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+F:\Sidekick\Internship\m1>mkdir CLI_Practice
+
+F:\Sidekick\Internship\m1>cd CLI_Practice
+
+F:\Sidekick\Internship\m1\CLI_Practice>copy con commands.txt
+cd, dir, tree
+
+
+Скопировано файлов:         1.
+
+F:\Sidekick\Internship\m1\CLI_Practice>dir
+ Том в устройстве F не имеет метки.
+ Серийный номер тома: B0E5-7133
+
+ Содержимое папки F:\Sidekick\Internship\m1\CLI_Practice
+
+06.11.2024  15:57    <DIR>          .
+06.11.2024  15:52    <DIR>          ..
+06.11.2024  15:57                19 commands.txt
+               1 файлов             19 байт
+               2 папок  140 291 854 336 байт свободно
+
+F:\Sidekick\Internship\m1\CLI_Practice>type commands.txt
+cd, dir, tree
+
+F:\Sidekick\Internship\m1\CLI_Practice>ren "commands.txt" "notes.txt"
+
+F:\Sidekick\Internship\m1\CLI_Practice>mkdir subdirectory
+
+F:\Sidekick\Internship\m1\CLI_Practice>move "notes.txt" F:\Sidekick\Internship\m1\CLI_Practice\subdirectory
+Перемещено файлов:         1.
+
+F:\Sidekick\Internship\m1\CLI_Practice>rd subdirectory
+Папка не пуста.
+
+F:\Sidekick\Internship\m1\CLI_Practice>rd /s subdirectory
+subdirectory, вы уверены [Y(да)/N(нет)]? y
+
+F:\Sidekick\Internship\m1\CLI_Practice>copy con log.txt
+06.11.2024
+Скопировано файлов:         1.
+
+F:\Sidekick\Internship\m1\CLI_Practice>type log.txt
+06.11.2024
+
+F:\Sidekick\Internship\m1\CLI_Practice>
